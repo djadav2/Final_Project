@@ -54,3 +54,7 @@ The images created by the application show visualizations of the code at work.
 
 The terminal also outputs the accuracy of each classifier using 5% of the training data as the test data.
 
+## Video
+
+Link to the video where I explain the application: [Google Drive](https://drive.google.com/file/d/1RoYd4eHlA09rqIZBaO6T--TsPnMzer8r/view?usp=sharing)
+
