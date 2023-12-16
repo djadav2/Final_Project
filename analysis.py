@@ -5,7 +5,6 @@ import pandas as pd
 import string
 # plotting
 import seaborn as sns
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 # nltk
 import nltk
@@ -41,7 +40,8 @@ def main():
 
     DATASET_COLUMNS=['target','ids','date','flag','user','text']
     DATASET_ENCODING = "ISO-8859-1"
-    df = pd.read_csv('training.csv', encoding=DATASET_ENCODING, names=DATASET_COLUMNS)
+    provided_file = 'training.csv'
+    df = pd.read_csv(provided_file, encoding=DATASET_ENCODING, names=DATASET_COLUMNS)
 
     df.head()
 
