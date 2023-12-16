@@ -41,7 +41,9 @@ The codebase does the following (in order):
    
 ## Runtime
 
-Simply running the command `python3 analysis.py` will launch the application and train the seperate classifiers on the dataset provided in `provided_file`.
+Firstly, the dataset must be loaded into the working directory at the `provided_file` path. In the case above, the dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140) and imported into the local working directory as `training.csv.`
+
+From there, simply running the command `python3 analysis.py` will launch the application and train the seperate classifiers on the dataset provided in `provided_file`.
 
 The images created by the application show visualizations of the code at work.
 
