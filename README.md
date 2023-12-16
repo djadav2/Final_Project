@@ -24,6 +24,21 @@ The sample use case provided in the code above performs analysis of the Sentimen
 3. LogisticRegression
 4. TfidfVectorizer
 
+## Explanation of Code
+
+The section below details the functionality and usage of the codebase.
+
+### Implementation Details
+
+The codebase does the following (in order):
+1. Import Necessary Dependencies
+2. Read and Load the Dataset
+3. Data Preprocessing - Cleaning stopwords, Removing Punctutation, Removing repeat characters, Removing URLs, Cleaning numbers, Tokenization of text, Stemming the data (reducing words to their base form), and Lemmatizing the data (Grouping words by lemma).
+4. Distributing Test and Training Data - 5% test, 95% training data
+5. Transforming Dataset using TF-IDF Vectorization - TF-IDF transforms the text into meaningful representation of integers or numbers which is then used to fit machine learning algorithms for predictions.
+6. Builds each model
+7. Model Evaluation
+   
 ## Runtime
 
 Simply running the command `python3 analysis.py` will launch the application and train the seperate classifiers on the dataset provided in `provided_file`.
