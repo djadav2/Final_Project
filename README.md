@@ -24,3 +24,16 @@ The sample use case provided in the code above performs analysis of the Sentimen
 3. LogisticRegression
 4. TfidfVectorizer
 
+## Runtime
+
+Simply running the command `python3 analysis.py` will launch the application and train the seperate classifiers on the dataset provided in `provided_file`.
+
+The images created by the application show visualizations of the code at work.
+
+1. data_distribution.png - Visualizes the differences in positive and negative tweets analyzed in the dataset.
+2. naivebayes.png - Visualizes the ROC curve for the Naive Bayes classifier.
+3. svm.png - Visuzlies the ROC curve for the Linear SVM classifier.
+4. logistic_regression.png - Visualizes the ROC curve for the Logistic Regression Model.
+
+The terminal also outputs the accuracy of each classifier using 5% of the training data as the test data.
+
